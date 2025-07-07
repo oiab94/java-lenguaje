@@ -1,14 +1,19 @@
-import fundamentosDelLenguaje.Condicionales;
+import fundamentosDelLenguaje.ScannerEjemplos;
+
+import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
-        Condicionales condicion = new Condicionales();
+    public static void main( String[] args ) {
+        // Start our ScannerEjemplosClass
+        Scanner input = new Scanner( System.in );
+        ScannerEjemplos scannerEjemplos = new ScannerEjemplos( input );
 
-        byte age = 17;
-        condicion.setAge(age);
-        condicion.checkIfPersonAreOlder();
+        // Executed our functions
+        scannerEjemplos.addNumbers();
+        scannerEjemplos.sumOfTwoNumbers();
+        scannerEjemplos.compareTwoNumbers();
 
-        byte day = 2;
-        condicion.checkADayInAWeek(day);
+        // Close the Scanner Class
+        input.close();
     }
 }
