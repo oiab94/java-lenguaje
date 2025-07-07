@@ -1,15 +1,14 @@
-import fundamentosDelLenguaje.Constantes;
+import fundamentosDelLenguaje.Condicionales;
 
 public class Main {
     public static void main(String[] args) {
-        String sinNombre = new Constantes().NOMBRE;
-        Constantes persona = new Constantes( "Laura" );
-        
-        System.out.println( "Constante por defecto: " + sinNombre );
-        System.out.println( "Constante con nombre: " + persona.NOMBRE );
+        Condicionales condicion = new Condicionales();
 
+        byte age = 17;
+        condicion.setAge(age);
+        condicion.checkIfPersonAreOlder();
 
-        float taxRate = Constantes.TAX_RATE;
-        System.out.println( "Constante de clase: " + taxRate );
+        byte day = 2;
+        condicion.checkADayInAWeek(day);
     }
 }
