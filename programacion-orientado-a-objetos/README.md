@@ -40,5 +40,42 @@ classDiagram
 Identificar el estado y comportamiento para los objetos del mundo real es una
 excelente forma de iniciar en términos de programación orientada a objetos. 
 
+
+## Que es una clase?
+Una clase es un plano de un objeto que hemos creado.
+
+```java
+class Bicycle {
+
+    int cadence = 0;
+    int speed = 0;
+    int gear = 1;
+
+    void changeCadence(int newValue) {
+         cadence = newValue;
+    }
+
+    void changeGear(int newValue) {
+         gear = newValue;
+    }
+
+    void speedUp(int increment) {
+         speed = speed + increment;   
+    }
+
+    void applyBrakes(int decrement) {
+         speed = speed - decrement;
+    }
+
+    void printStates() {
+         System.out.println("cadence:" +
+             cadence + " speed:" + 
+             speed + " gear:" + gear);
+    }
+}
+```
+
+
 ## Biblio
 [What Is an Object?](https://docs.oracle.com/javase/tutorial/java/concepts/object.html)
+[What Is a Class](https://docs.oracle.com/javase/tutorial/java/concepts/class.html)

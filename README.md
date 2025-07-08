@@ -5,3 +5,4 @@
 
 ## Programación Orientada a Objetos
 - [Que es un Objeto?](./programacion-orientado-a-objetos/README.md/#que-es-un-objeto)
+- [Que es una Clase?](./programacion-orientado-a-objetos/README.md/#que-es-una-clase)
