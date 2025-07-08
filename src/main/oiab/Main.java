@@ -1,4 +1,6 @@
-import fundamentosDelLenguaje.ScannerEjemplos;
+package main.oiab;
+
+import main.oiab.fundamentosDelLenguaje.ScannerEjemplos;
 
 import java.util.Scanner;
 

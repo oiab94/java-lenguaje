@@ -1,4 +1,4 @@
-package fundamentosDelLenguaje;
+package main.oiab.fundamentosDelLenguaje;
 
 /**
  * La clase {@code VariablePrimitvas} demuestra el uso de variables primitivas 

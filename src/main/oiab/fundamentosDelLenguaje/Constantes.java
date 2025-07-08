@@ -1,4 +1,4 @@
-package fundamentosDelLenguaje;
+package main.oiab.fundamentosDelLenguaje;
 
 public class Constantes {
     /**
