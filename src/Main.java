@@ -1,19 +1,9 @@
-import fundamentosDelLenguaje.ScannerEjemplos;
-
-import java.util.Scanner;
+import fundamentosDelLenguaje.FinalProject;
 
 public class Main {
     public static void main( String[] args ) {
-        // Start our ScannerEjemplosClass
-        Scanner input = new Scanner( System.in );
-        ScannerEjemplos scannerEjemplos = new ScannerEjemplos( input );
+        FinalProject project = new FinalProject(System.in);
 
-        // Executed our functions
-        scannerEjemplos.addNumbers();
-        scannerEjemplos.sumOfTwoNumbers();
-        scannerEjemplos.compareTwoNumbers();
-
-        // Close the Scanner Class
-        input.close();
+        project.initializeFinalProject();
     }
 }
