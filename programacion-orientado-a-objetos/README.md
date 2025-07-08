@@ -76,6 +76,13 @@ class Bicycle {
 ```
 
 
+## Que es la herencia?
+Difererntes objetos normalmente comparten ciertos comportamientos los unos a los 
+otros. Claro que cada objeto define sus caracteristicas adicionalmente que lo 
+hacen diferentes.
+
+
 ## Biblio
-[What Is an Object?](https://docs.oracle.com/javase/tutorial/java/concepts/object.html)
-[What Is a Class](https://docs.oracle.com/javase/tutorial/java/concepts/class.html)
+[What Is an Object?](https://docs.oracle.com/javase/tutorial/java/concepts/object.html) <br>
+[What Is a Class](https://docs.oracle.com/javase/tutorial/java/concepts/class.html) <br>
+[What Is a Inheritance](https://docs.oracle.com/javase/tutorial/java/concepts/inheritance.html)<br>
