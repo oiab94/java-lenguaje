@@ -1,9 +1,13 @@
-import fundamentosDelLenguaje.FinalProject;
+import estructuraDeDatos.ArraysStructure;
 
 public class Main {
     public static void main( String[] args ) {
-        FinalProject project = new FinalProject(System.in);
+        ArraysStructure arraysStructure = new ArraysStructure();
 
-        project.initializeFinalProject();
+        arraysStructure.testPrimitivePerformance();
+        arraysStructure.testReadPrimitivePerformance();
+
+        arraysStructure.testDynamicPerformance();
+        arraysStructure.testReadDynamicPerformance();
     }
 }
